@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="资源文件\res">
+      <UniqueIdentifier>{71884f28-4059-4e54-8ad0-2be63460bf3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\light_project">
+      <UniqueIdentifier>{95f74e6a-9462-4d5d-8472-152fbbcf2df0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\assimpMaps">
+      <UniqueIdentifier>{50bfb787-5fd0-4892-bad4-31774b08cab7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\seniorOpenGL">
+      <UniqueIdentifier>{7b6a1f6f-e717-455e-b813-940ddf8174e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\CubeMaps">
+      <UniqueIdentifier>{2d895250-7cb4-4d33-9599-787b7aef66c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\asteriod">
+      <UniqueIdentifier>{7fc3c17c-3a27-4cad-8199-523ef6150b88}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="glad.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="light_project.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="assimp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="seniorOpenGL.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CubeMaps.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="asteroid.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="camera.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="shader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Lights.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="directionalLighted.frag">
+      <Filter>资源文件\light_project</Filter>
+    </None>
+    <None Include="lamp.frag">
+      <Filter>资源文件\light_project</Filter>
+    </None>
+    <None Include="lamp.vert">
+      <Filter>资源文件\light_project</Filter>
+    </None>
+    <None Include="object.frag">
+      <Filter>资源文件\light_project</Filter>
+    </None>
+    <None Include="object.vert">
+      <Filter>资源文件\light_project</Filter>
+    </None>
+    <None Include="pointLighted.frag">
+      <Filter>资源文件\light_project</Filter>
+    </None>
+    <None Include="spotLighted.frag">
+      <Filter>资源文件\light_project</Filter>
+    </None>
+    <None Include="packages.config" />
+    <None Include="assimpMaps.frag">
+      <Filter>资源文件\assimpMaps</Filter>
+    </None>
+    <None Include="assimpMaps.vert">
+      <Filter>资源文件\assimpMaps</Filter>
+    </None>
+    <None Include="grass.frag">
+      <Filter>资源文件\seniorOpenGL</Filter>
+    </None>
+    <None Include="seniorOpenGL.frag">
+      <Filter>资源文件\seniorOpenGL</Filter>
+    </None>
+    <None Include="seniorOpenGL.vert">
+      <Filter>资源文件\seniorOpenGL</Filter>
+    </None>
+    <None Include="stencil.frag">
+      <Filter>资源文件\seniorOpenGL</Filter>
+    </None>
+    <None Include="cube.frag">
+      <Filter>资源文件\CubeMaps</Filter>
+    </None>
+    <None Include="cube.vert">
+      <Filter>资源文件\CubeMaps</Filter>
+    </None>
+    <None Include="CubeMaps.frag">
+      <Filter>资源文件\CubeMaps</Filter>
+    </None>
+    <None Include="CubeMaps.vert">
+      <Filter>资源文件\CubeMaps</Filter>
+    </None>
+    <None Include="asteroid.vert">
+      <Filter>资源文件\asteriod</Filter>
+    </None>
+    <None Include="asteroid.frag">
+      <Filter>资源文件\asteriod</Filter>
+    </None>
+    <None Include="planet.vert">
+      <Filter>资源文件\asteriod</Filter>
+    </None>
+    <None Include="planet.frag">
+      <Filter>资源文件\asteriod</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="container2_specular.png">
+      <Filter>资源文件\res</Filter>
+    </Image>
+    <Image Include="matrix.jpg">
+      <Filter>资源文件\res</Filter>
+    </Image>
+    <Image Include="container2.png">
+      <Filter>资源文件\res</Filter>
+    </Image>
+    <Image Include="lighting_maps_specular_color.png">
+      <Filter>资源文件\res</Filter>
+    </Image>
+    <Image Include="container.jpg">
+      <Filter>资源文件\res</Filter>
+    </Image>
+    <Image Include="blending_transparent_window.png">
+      <Filter>资源文件\res</Filter>
+    </Image>
+    <Image Include="grass.png">
+      <Filter>资源文件\res</Filter>
+    </Image>
+    <Image Include="skybox\back.jpg">
+      <Filter>资源文件\CubeMaps</Filter>
+    </Image>
+    <Image Include="skybox\bottom.jpg">
+      <Filter>资源文件\CubeMaps</Filter>
+    </Image>
+    <Image Include="skybox\front.jpg">
+      <Filter>资源文件\CubeMaps</Filter>
+    </Image>
+    <Image Include="skybox\left.jpg">
+      <Filter>资源文件\CubeMaps</Filter>
+    </Image>
+    <Image Include="skybox\right.jpg">
+      <Filter>资源文件\CubeMaps</Filter>
+    </Image>
+    <Image Include="skybox\top.jpg">
+      <Filter>资源文件\CubeMaps</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

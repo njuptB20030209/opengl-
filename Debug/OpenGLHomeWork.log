@@ -1,0 +1,20 @@
+﻿secondHomework.obj : error LNK2019: 无法解析的外部符号 _glfwInit，函数 _main 中引用了该符号
+secondHomework.obj : error LNK2019: 无法解析的外部符号 _glfwTerminate，函数 _main 中引用了该符号
+secondHomework.obj : error LNK2019: 无法解析的外部符号 _glfwWindowHint，函数 _main 中引用了该符号
+secondHomework.obj : error LNK2019: 无法解析的外部符号 _glfwCreateWindow，函数 _main 中引用了该符号
+secondHomework.obj : error LNK2019: 无法解析的外部符号 _glfwWindowShouldClose，函数 _main 中引用了该符号
+secondHomework.obj : error LNK2019: 无法解析的外部符号 _glfwSetWindowShouldClose，函数 "void __cdecl processInput(struct GLFWwindow *)" (?processInput@@YAXPAUGLFWwindow@@@Z) 中引用了该符号
+secondHomework.obj : error LNK2019: 无法解析的外部符号 _glfwSetFramebufferSizeCallback，函数 _main 中引用了该符号
+secondHomework.obj : error LNK2019: 无法解析的外部符号 _glfwPollEvents，函数 _main 中引用了该符号
+secondHomework.obj : error LNK2019: 无法解析的外部符号 _glfwSetInputMode，函数 _main 中引用了该符号
+secondHomework.obj : error LNK2019: 无法解析的外部符号 _glfwGetKey，函数 "void __cdecl processInput(struct GLFWwindow *)" (?processInput@@YAXPAUGLFWwindow@@@Z) 中引用了该符号
+secondHomework.obj : error LNK2019: 无法解析的外部符号 _glfwSetMouseButtonCallback，函数 _main 中引用了该符号
+secondHomework.obj : error LNK2019: 无法解析的外部符号 _glfwSetCursorPosCallback，函数 _main 中引用了该符号
+secondHomework.obj : error LNK2019: 无法解析的外部符号 _glfwSetScrollCallback，函数 _main 中引用了该符号
+secondHomework.obj : error LNK2019: 无法解析的外部符号 _glfwGetTime，函数 _main 中引用了该符号
+secondHomework.obj : error LNK2019: 无法解析的外部符号 _glfwMakeContextCurrent，函数 _main 中引用了该符号
+secondHomework.obj : error LNK2019: 无法解析的外部符号 _glfwSwapBuffers，函数 _main 中引用了该符号
+secondHomework.obj : error LNK2019: 无法解析的外部符号 _glfwGetProcAddress，函数 _main 中引用了该符号
+D:\c++\opengl\lib\glfw3.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+D:\c++\opengl\lib\glew32.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+D:\c++\opengl\OpenGLHomeWork\Debug\OpenGLHomeWork.exe : fatal error LNK1120: 17 个无法解析的外部命令
